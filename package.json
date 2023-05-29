@@ -1,0 +1,26 @@
+{
+  "name": "ai-translate",
+  "version": "1.0.0",
+  "description": "智能自动化国际化",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+	"translate": "./bin/AI-translate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Little-Prince-Teng/AI-translate-cli.git"
+  },
+  "author": "teng.lu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Little-Prince-Teng/AI-translate-cli/issues"
+  },
+  "homepage": "https://github.com/Little-Prince-Teng/AI-translate-cli#readme",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "glob": "^10.2.6"
+  }
+}
